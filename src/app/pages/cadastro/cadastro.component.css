@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-/* facilitar o dimensionamento dos elementos.*/
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* Fundo e Layout da Página */
 body {
     display: flex;
     justify-content: center;
@@ -21,7 +19,6 @@ body {
     backdrop-filter: blur(10px);
 }
 
-/* Caixa Principal do Formulário(linha do quadrado) */
 
 .container {
     width: 450px;
@@ -33,15 +30,13 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
-/* Título do Formulário */
-
 .container h1 {
     font-size: 36px;
     text-align: center;
     
 }
 
-/* CAIXA DE ENTRADA */
+
 
 .input-box {
     position: relative;
@@ -51,7 +46,6 @@ body {
 
 }
 
-/* CAMPO DE ENTRADA */
 
 .input-box input {
     width: 100%;

@@ -1,2 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+
 @import "tailwindcss";
+
+/* Deixa html e body ocuparem a altura toda */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Faz o app-root ocupar todo o espaço e distribuir com flex */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
