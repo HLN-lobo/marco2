@@ -1,12 +1,33 @@
-<nav class="">
-    <!-- <div class="logo">IronMonster</div> -->
-
-    @for (item of itemsMenu; track item) {
+<header>
+    <nav>
+        <img src="./src/logoSemFundo.png" alt="logo">
         <ul>
-            <li routerLink="{{item.link}}">
-                <a>{{item.label}}</a>
+            <li class="dropdown">
+                Creatina <span class="arrow">⯆</span>
+                <ul class="submenu">
+                    <li>Creatina Monohidratada</li>
+                    <li>Creatina Micronizada</li>
+                    <li>Creatina Líquida</li>
+                </ul>
             </li>
+            <li class="dropdown">
+                Whey <span class="arrow">⯆</span>
+                <ul class="submenu">
+                    <li>Whey Concentrado</li>
+                    <li>Whey Isolado</li>
+                    <li>Whey Hidrolisado</li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                Pré-treino <span class="arrow">⯆</span>
+                <ul class="submenu">
+                    <li>Com Cafeína</li>
+                    <li>Sem Cafeína</li>
+                    <li>Pump Focus</li>
+                </ul>
+            </li>
+            <li class="entrar"><a routerLink="/login">Entrar</a></li>
+            <li class="entrar"><a routerLink="/cadastro">Cadastrar-se</a></li>
         </ul>
-    }
-
-</nav>
+    </nav>
+</header>
