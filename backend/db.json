@@ -1,0 +1,108 @@
+{
+    "clientes": [
+        {
+            "id": 1,
+            "nome": "Rafael",
+            "sobrenome": "Araujo",
+            "endereco": "Av Interlagos",
+            "telefone": "",
+            "email": "rafaelaraujo@gmail.com",
+            "senha": "rafa123"
+        },
+        {
+            "id": 2,
+            "nome": "Isabela",
+            "sobrenome": "Melo",
+            "endereco": "Estrada da Colonia",
+            "telefone": "",
+            "email": "isaalves@gmail.com",
+            "senha": "isa123"
+        }
+    ],
+    "admin": [
+        {
+            "id": 1,
+            "nome": "Henrique",
+            "sobrenome": "Lobo",
+            "endereco": "Rua Mangal",
+            "telefone": "",
+            "email": "henriquelobo@gmail.com",
+            "senha": "rick123"
+        },
+        {
+            "id": 2,
+            "nome": "Eduarda",
+            "sobrenome": "Viera",
+            "endereco": "Av Giovanni Gronchi",
+            "telefone": "",
+            "email": "dudavieira@gmail.com",
+            "senha": "duda123"
+        }
+    ],
+    "produtos":[
+        {
+            "nome": "Whey",
+            "marca": "Growth",
+            "preco": 89.90,
+            "tamanho": "1Kg",
+            "img": "./src/wheyGrowth.jpg",
+            "botao": "Comprar"
+        },
+        {
+            "nome": "Whey",
+            "marca": "IntegralMedica",
+            "preco": 94.90,
+            "tamanho": "900g",
+            "img": "./src/wheyIntegral.jpg",
+            "botao": "Comprar"
+        },
+        {
+            "nome": "Whey",
+            "marca": "BlackSkull",
+            "preco": 87.90,
+            "tamanho": "900g",
+            "img": "./src/wheyBlack.jpg",
+            "botao": "Comprar"
+        },
+        {
+            "nome": "Whey",
+            "marca": "MaxTitanium",
+            "preco": 91.90,
+            "tamanho": "900g",
+            "img": "./src/wheyMax.jpg",
+            "botao": "Comprar"
+        },
+        {
+            "nome": "Creatina",
+            "marca": "Growth",
+            "preco": 87.90,
+            "tamanho": "900g",
+            "img": "./src/creatinaGrowth.jpg",
+            "botao": "Comprar"
+        },
+        {
+            "nome": "Creatina",
+            "marca": "IntegralMedica",
+            "preco": 87.90,
+            "tamanho": "900g",
+            "img": "./src/creatinaIntegral.jpg",
+            "botao": "Comprar"
+        },
+        {
+            "nome": "Creatina",
+            "marca": "BlackSkull",
+            "preco": 87.90,
+            "tamanho": "900g",
+            "img": "./src/creatineBlack.jpg",
+            "botao": "Comprar"
+        },
+        {
+            "nome": "Creatina",
+            "marca": "MaxTitanium",
+            "preco": 87.90,
+            "tamanho": "900g",
+            "img": "./src/creatinaMax.jpg",
+            "botao": "Comprar"
+        }
+    ]
+}
