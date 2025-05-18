@@ -3,13 +3,14 @@
         <form>
             <img src="assets/logoSemFundo.png" alt="logo" routerLink="/" class="full-width-image"
                 style="width: 200px; display: block; margin: 0 auto;" />
+
             <div class="input-box">
-                <input placeholder="Usuário" type="email" name="usuario" required>
+                <input placeholder="Usuário" type="email" name="usuario" required [(ngModel)]="login">
                 <i class="bx bxs-user"></i>
             </div>
 
             <div class="input-box">
-                <input placeholder="Senha" type="password" name="senha" required>
+                <input placeholder="Senha" type="password" name="senha" required [(ngModel)]="senha">
                 <i class="bx bxs-lock-alt"></i>
             </div>
 
@@ -20,7 +21,7 @@
                 <a href="#">Esqueci a senha</a>
             </div>
 
-            <button type="button" class="login" id="entrarButton">Entrar</button>
+            <button type="button" class="login" (click)="onBotaoClicado()">Entrar</button>
 
             <div class="register-link">
                 <p>Não possui cadastro?<a href="/cadastro"> Cadastre-se</a></p>

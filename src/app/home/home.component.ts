@@ -7,12 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  categorias = [
-    { nome: 'Marcas' },
-    { nome: 'Creatina' },
-    { nome: 'Proteína' },
-    { nome: 'Pré-treino' },
-  ];
   marcas = [
     { nome: 'DarkLab' },
     { nome: 'Max' },
