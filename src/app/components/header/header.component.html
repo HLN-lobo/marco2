@@ -2,30 +2,31 @@
     <nav>
         <img src="assets/logoSemFundo.png" alt="logo" routerLink="/" class="full-width-image" style="width: 200px;">
         <ul>
-            <li class="dropdown">
-                Creatina <span class="arrow">⯆</span>
+            <!-- Marcas com submenu -->
+            <li class="bold-item dropdown">
+                MARCAS <span class="arrow">⯆</span>
                 <ul class="submenu">
-                    <li>Creatina Monohidratada</li>
-                    <li>Creatina Micronizada</li>
-                    <li>Creatina Líquida</li>
+                    <li>DARK LAB</li>
+                    <li>MAX TITANIUM</li>
+                    <li>BLACK SKULL</li>
+                    <li>GROWTH SUPLEMENTS</li>
                 </ul>
             </li>
-            <li class="dropdown">
-                Whey <span class="arrow">⯆</span>
-                <ul class="submenu">
-                    <li>Whey Concentrado</li>
-                    <li>Whey Isolado</li>
-                    <li>Whey Hidrolisado</li>
-                </ul>
+
+            <!-- Whey sem submenu -->
+            <li cla>
+                <a routerLink="/produtos/whey">CREATINA</a>
             </li>
-            <li class="dropdown">
-                Pré-treino <span class="arrow">⯆</span>
-                <ul class="submenu">
-                    <li>Com Cafeína</li>
-                    <li>Sem Cafeína</li>
-                    <li>Pump Focus</li>
-                </ul>
+
+            <!-- Pré-treino sem submenu -->
+            <li>
+                <a routerLink="/produtos/pre-treino">PROTEÍNA</a>
             </li>
+            <li>
+                <a routerLink="/produtos/pre-treino">PRÉ-TREINO</a>
+            </li>
+
+            <!-- Entrar e Cadastrar-se -->
             <li class="entrar"><a routerLink="/login">Entrar</a></li>
             <li class="entrar"><a routerLink="/cadastro">Cadastrar-se</a></li>
         </ul>

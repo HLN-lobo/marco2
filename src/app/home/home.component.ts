@@ -13,4 +13,10 @@ export class HomeComponent {
     { nome: 'Proteína' },
     { nome: 'Pré-treino' },
   ];
+  marcas = [
+    { nome: 'DarkLab' },
+    { nome: 'Max' },
+    { nome: 'BlackSkull' },
+    { nome: 'Growth' },
+  ]
 }

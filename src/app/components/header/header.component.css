@@ -2,7 +2,7 @@
 
 * {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 00;
     font-style: normal;
     margin: 0;
     padding: 0;
@@ -13,7 +13,6 @@ header {
     width: 100%;
     background-color: #fff;
 }
-
 
 nav {
     border-bottom: 2px solid #585858;
@@ -85,4 +84,8 @@ nav ul li {
 
 .submenu li:hover {
     background-color: #f0f0f0;
+}
+.bold-item,
+.bold-item a {
+  font-weight: 700; /* negrito */
 }
