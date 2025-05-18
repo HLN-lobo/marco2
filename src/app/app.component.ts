@@ -8,7 +8,7 @@ import { FooterComponent } from "./components/footer/footer.component";
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, HomeComponent, FooterComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'myapp';
