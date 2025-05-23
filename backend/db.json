@@ -1,0 +1,16 @@
+{
+    "pessoas": [
+        {
+            "id": "1",
+            "nome": "Enzo",
+            "sobrenome": "Silva",
+            "dtNascimento": "2005-01-24"
+        },
+        {
+            "id": "2",
+            "nome": "Tina",
+            "sobrenome": "Pereira",
+            "dtNascimento": "2003-10-14"
+        }
+    ]
+}

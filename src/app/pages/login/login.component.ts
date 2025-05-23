@@ -19,7 +19,7 @@ export class LoginComponent {
   onBotaoClicado(): void {
     if (this.login.trim() && this.senha.trim()) {
       if (this.login === 'admin' && this.senha === '123') {
-        this.router.navigate(['/pessoaListagem']);
+        this.router.navigate(['/pessoas']); // rota corrigida
       } else {
         alert('Dados inválidos!');
       }
