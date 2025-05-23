@@ -152,7 +152,7 @@ h2 {
 .marquee {
     display: inline-block;
     white-space: nowrap;
-    animation: scroll-left 10s linear infinite;
+    animation: scroll-left 17s linear infinite;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
